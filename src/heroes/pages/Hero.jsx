@@ -19,7 +19,7 @@ export const Hero = () => {
     <div className="row mt-5 animate__animated animate__fadeIn">
       <div className="col-4">
         <img
-          src={`/heroes/${id}.jpg`}
+          src={`heroes/${id}.jpg`}
           alt={hero.superhero}
           className="img-thumbnail"
         ></img>
