@@ -9,14 +9,14 @@ export const HeroCard = ({
     characters,
 }) => {
 
-    const heroImageUrl=`/heroes/${ id }.jpg`
+    const heroImageUrl=`../heroes/${ id }.jpg`
 
   return (
-    <div className="col animate__animated animate__fadeInUp">
+    <div className="col animate__animated animate__fadeInUp py-2">
         <div className="card">
             <div className="row no-gutters">
                 <div className="col-4">
-                    <img src={ heroImageUrl } className="card-img " alt={superhero}/>
+                    <img src={ heroImageUrl } className="card-img h-100 object-fit-cover" alt={superhero}/>
                 </div>
                 <div className="col-8">
                     <div className="card-body">
